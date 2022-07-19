@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazzy Trips</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  
+<body class="body">
+    <nav class="navbar navbar-expand-lg navbar-light  navbar-fixed-top trips_nav">
+        <a class="navbar-brand" href="/index.html" style="display: flex; width: 100%;">
+          <img src="/img/logo.png" alt="" class="logo">
+        </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item nav_hover">
+                  <a class="nav-link header_text" href="">Flights </a>
+                </li>
+                <li class="nav-item nav_hover">
+                  <a class="nav-link header_text" href="">Hotels</a>
+                </li>
+                <li class="nav-item nav_hover">
+                    <a class="nav-link header_text" href="">Cars</a>
+                  </li>
+            </ul>
+          </div>
+        </nav>
+    <div class="row sign_row">
+        <div class="col-md-3 sign_up_col_one">
+            <div class="sign_up_form">
+                <h3 class="log_title">Sign Up</h3>
+
+                <div class="tab sign_btn_group">
+                    <button class="tablinks active" onclick="openForm(event, 'Email')"><i class="fa fa-envelope"></i> <small>Email</small></button>
+                    <button class="tablinks" onclick="openForm(event, 'Phone')"><i class="fa fa-mobile"></i><small>Phone Number</small></button>
+                </div>
+  
+  <!-- Tab content -->
+  <div id="Email" class="tabcontent show ">
+      <form>
+        <div class="form-row mt-3">
+            <div class="row m-0">
+                <div class="col-6 form_col sign_up_form_col">
+                    <label for="firstName"><small>First Name</small></label>
+                  <input type="firstName" class="form-control form_input" placeholder="John">
+                </div>
+                <div class="col-6 form_col sign_up_form_col_two">
+                    <label for="lastName"><small>Last Name</small></label>
+                  <input type="lastName" class="form-control form_input" placeholder="Doe">
+                </div>
+            </div>
+            <div class="col form_col">
+                <label for="email"><small>Email</small></label>
+              <input type="email" class="form-control form_input" placeholder="name@example.com">
+            </div>
+            <div class="col  form_col">
+                <label for="password"><small>Password</small></label>
+              <input type="password" class="form-control form_input" placeholder="****">
+            </div>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <small>Email me exclusive Eazzy Trips promotions. I can unsubscribe at any time as stated in the Privacy Policy.</small>
+            </label>
+          </div>
+          <div class="mt-3">
+            <button class="btn btn-primary  form_btn">Sign Up</button>
+        </div>
+          <div class="mt-3" style="margin-left: 20px; margin-right: 25px;">
+            <p class="form_text">
+                By signing in, I agree to Eazzy Trips <a href="">Terms of Use 
+                </a>and <a href="/privacy_policy.html">Privacy Policy</a>.
+             </p>
+          </div>
+          <div style="text-align: center;">
+            <p class="form_text">
+                or continue with
+             </p>
+          </div>
+          <div class="row">
+            <div class="col-6">
+                <button class="btn social_form_btn"><i class="fa fa-google"></i> Google</button>
+              </div>
+              <div class="col-6">
+                <button class="btn social_form_btn"><i class="fa fa-facebook"></i> Facebook</button>
+              </div>
+          </div>
+          <div class="form_footer mt-3">
+            <p class="form_text form_footer_text mt-3">
+                Already have an account.
+             </p>
+             <div class="mt-1" style="float: right;">
+                <a href="/sign_in.html" class="btn btn-primary form_footer_btn">Sign In</a>
+            </div>
+          </div>
+      </form>
+  </div>
+  
+  <div id="Phone" class="tabcontent">
+    <form>
+        <div class="form-row mt-3">
+            <div class="row m-0">
+                <div class="col-6 form_col sign_up_form_col">
+                    <label for="firstName"><small>First Name</small></label>
+                  <input type="firstName" class="form-control form_input" placeholder="John">
+                </div>
+                <div class="col-6 form_col sign_up_form_col_two">
+                    <label for="lastName"><small>Last Name</small></label>
+                  <input type="lastName" class="form-control form_input" placeholder="Doe">
+                </div>
+            </div>
+            <div class="col  form_col">
+                <label for="tel"><small>Number</small></label>
+              <input type="tel" class="form-control form_input" placeholder="+234-0000-000-0000">
+            </div>
+            <div class="col  form_col">
+                <label for="password"><small>Password</small></label>
+              <input type="password" class="form-control form_input" placeholder="****">
+            </div>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <small>Email me exclusive Eazzy Trips promotions. I can unsubscribe at any time as stated in the Privacy Policy.</small>
+            </label>
+          </div>
+          <div class="mt-3">
+            <button class="btn btn-primary  form_btn">Sign Up</button>
+        </div>
+          <div class="mt-3" style="margin-left: 20px; margin-right: 25px;">
+            <p class="form_text">
+                By signing in, I agree to Eazzy Trips <a href="">Terms of Use 
+                </a>and <a href="/privacy_policy.html">Privacy Policy</a>.
+             </p>
+          </div>
+          <div style="text-align: center;">
+            <p class="form_text">
+                or continue with
+             </p>
+          </div>
+          <div class="row">
+            <div class="col-6">
+                <button class="btn social_form_btn"><i class="fa fa-google"></i> Google</button>
+              </div>
+              <div class="col-6">
+                <button class="btn social_form_btn"><i class="fa fa-facebook"></i> Facebook</button>
+              </div>
+          </div>
+          <div class="form_footer mt-3">
+            <p class="form_text form_footer_text mt-3">
+                Already have an account.
+             </p>
+             <div class="mt-1" style="float: right;">
+                <a href="/sign_in.html" class="btn btn-primary  form_footer_btn">Sign In</a>
+            </div>
+          </div>
+      </form>
+  </div>
+        </div>
+        </div>
+        <div class="col-md-9  sign_in_col_two">
+            <img src="/img/sign-up.png" class="sign_up_img" alt="">
+        </div>
+    </div>
+
+
+
+    <script>
+        function openForm(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+    </script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/87c29cab84.js" crossorigin="anonymous"></script>
+    </body>
+</html>

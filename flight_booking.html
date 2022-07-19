@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eazzy Trips</title>
+  <link rel="stylesheet" href="index.css"/>
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="row flight_row_one">
+        <!-- <img src="/img/Image.png" alt="" class="bg_img"> -->
+            <nav class="navbar navbar-expand-lg navbar-light  navbar-fixed-top booking_nav">
+                <a class="navbar-brand" href="/index.html" style="display: flex; width: 100%;">
+                    <img src="/img/logo.png" alt="" class="logo">
+                    <!-- <h6 class="logo_name">ITSKILLS4AFRICA</h6> -->
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse sidebar" id="collapsibleNavbar">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item nav_hover">
+                      <a class="nav-link header_text" href="">Flight <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item nav_hover">
+                      <a class="nav-link header_text" href="">Hotels </a>
+                    </li>
+                    <li class="nav-item nav_hover">
+                        <a class="nav-link header_text" href="">Cars</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="row mb-5">
+                  <div class="col-6 p-5" >
+                    <h1 class="booking_title">Flying to a New Destination</h1>
+                    <button type="button" class="btn btn-primary mt-4"> Explore Now <i class="fa fa-arrow-right"></i></button>
+                  </div>
+              </div>
+              <div class="card booking_card">
+                <div class="card-body">
+                 <div class="flex-container mb-3" style="width: 100%;">
+                    <div class="custom-select m-2">
+                        <select class="booking_select">
+                          <option value="1">1 Passenger</option>
+                          <option value="2">Audi</option>
+                          <option value="3">BMW</option>
+                          <option value="3">Citroen</option>
+                        </select>
+                      </div>
+                      <div class="custom-select m-2">
+                        <select class="booking_select">
+                         <option value="premium-economy">Premium Economy</option>
+                          <option value="economy">Economy</option>
+                          <option value="business">Business</option>
+                          <option value="first-class">First Class</option>
+                        </select>
+                      </div>
+                      <div class="custom-select m-2">
+                        <select class="booking_select">
+                          <option value="round-trip">Round Trip</option>
+                          <option value="one-way">One-Way </option>
+                          <option value="multi-city">Multi-city</option>
+                        </select>
+                      </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-6">
+                        <div class="flex-container" style="width: 100%;">
+                            <div class="itenary departure">
+                                <label >From</label>
+                                <div class="dropdown">
+                                    <button class="btn  search_form dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      City or Airport
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li  class="dropdown-item">
+                                        <h2 class="state"> New York</h2>
+                                        <p>SDH, North America, USA</p>
+                                        </li>
+                                        <li  class="dropdown-item">
+                                            <h2 class="state"> Lagos</h2>
+                                            <p>Muritala Mohammed Airport, Lagos, NG</p>
+                                            </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="circle">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <div class="itenary arrival">
+                                <label >To</label>
+                                <div class="dropdown">
+                                    <button class="btn  search_form dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      City or Airport
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li  class="dropdown-item">
+                                        <h2 class="state"> New York</h2>
+                                        <p>SDH, North America, USA</p>
+                                        </li>
+                                        <li  class="dropdown-item">
+                                            <h2 class="state"> Lagos</h2>
+                                            <p>Muritala Mohammed Airport, Lagos, NG</p>
+                                            </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                         </div> 
+                    </div>
+                    <div class="col-6">
+                        <div class="flex-container" style="width: 100%;">
+                          <div class="itenary departure date_search">
+                            <label >Departure</label>
+                            <div>
+                              <div style="display: flex;">
+                                <h5 class="date_text">Wed, 12 April</h5>
+                                <i class="far fa-calendar-alt"></i>
+                              </div>
+                              <div>
+                                <button type="button" class="btn btn-link date_btn">Prev</button>
+                                <button type="button" class="btn btn-link date_btn">Next</button>
+                              </div>
+                            </div>
+                        </div>
+                            <div class="itenary arrival_date arrival_date_search">
+                              <label >Return</label>
+                              <div>
+                                <div style="display: flex;">
+                                  <h5 class="date_text">Wed, 12 April</h5>
+                                  <i class="far fa-calendar-alt"></i>
+                                </div>
+                                <div>
+                                  <button type="button" class="btn btn-link date_btn">Prev</button>
+                                  <button type="button" class="btn btn-link date_btn">Next</button>
+                                </div>
+                              </div>
+                            </div>
+                         </div> 
+                    </div>
+                 </div>
+                 <div class="mt-3">
+                    <a href="" >Get the latest on our Covid-19 response</a>
+                    <button type="button" class="btn btn-primary search_btn">Search Flights <i class="fa fa-arrow-right"></i></button>
+                 </div>
+                </div>
+              </div>
+              </div>
+              <div class="row flight_row_two">
+                <div class="" style="display: flex;">
+                  <h5 class="flight_row_two_title">Popular Destinations</h5>
+                  <button type="button" class="btn btn-link date_btn explore_btn active" onclick="filterSelection('all')">Explore All</button>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 booking_filter_card">
+                      <div>
+                        <div class="filter_box">
+                          <small class="filter_text">Most Popular</small>
+                        </div>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <img src="/img/booking 1.png" class="card-img-top" alt="...">
+                      <div class="card-body booking_filter_card">
+                        <div style="display: flex;">
+                          <i class="fas fa-star"></i>
+                          <h6 class="review_rating">5.0<span class="review_value">(240 reviews)</span></h6>
+                        </div>
+                        <div>
+                          <h2 class="booking_location">Susak, Croatia</h2>
+                          <p class="booking_location_brief">A beautiful place that I will be remembering for years to come. Deal includes dinner, flights, baggage transportation.</p>
+                        </div>
+                        <div style="display: flex;">
+                          <small class="destination_summary">7 nights,</small>
+                          <small class="destination_summary"> Departure on 2021, June 23</small>
+                        </div>
+                       <div class="mt-3" style="display:flex">
+                        <div><h6 class="discount_price">$480</h6></div>
+                         <div class="mt-2 ml-5"><small class="actual_price">$960</small></div>
+                         <div class="payment_plan">
+                          <small class="payment_plan_text">First payment only $200</small>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 booking_filter_card">
+                      <div>
+                        <div class="filter_box flight">
+                          <small class="filter_text">Direct Flight</small>
+                        </div>
+                        <div class="filter_box save">
+                          <small class="filter_text">Save $200</small>
+                        </div>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <img src="/img/booking 6.png" class="card-img-top" alt="...">
+                      <div class="card-body booking_filter_card">
+                        <div style="display: flex;">
+                          <i class="fas fa-star"></i>
+                          <h6 class="review_rating">4.9<span class="review_value">(280 reviews)</span></h6>
+                        </div>
+                        <div>
+                          <h2 class="booking_location">Athena, Greece </h2>
+                          <p class="booking_location_brief">A beautiful place that I will be remembering for years to come. Deal includes dinner, flights, baggage transportation.</p>
+                        </div>
+                        <div style="display: flex;">
+                          <small class="destination_summary">8 nights,</small>
+                          <small class="destination_summary"> Departure on 2021, June 28</small>
+                        </div>
+                       <div class="mt-3" style="display:flex">
+                        <div><h6 class="discount_price">$780</h6></div>
+                         <div class="mt-2 ml-5"><small class="actual_price">$960</small></div>
+                         <div class="payment_plan">
+                          <small class="payment_plan_text">First payment only $150</small>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 booking_filter_card">
+                      <div>
+                        <div class="filter_box">
+                          <small class="filter_text">Most Popular</small>
+                        </div>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <img src="/img/booking 2.png" class="card-img-top" alt="...">
+                      <div class="card-body booking_filter_card">
+                        <div style="display: flex;">
+                          <i class="fas fa-star"></i>
+                          <h6 class="review_rating">4.7<span class="review_value">(340 reviews)</span></h6>
+                        </div>
+                        <div>
+                          <h2 class="booking_location">Porto Pomos, Cyprus</h2>
+                          <p class="booking_location_brief">A beautiful place that I will be remembering for years to come. Deal includes dinner, flights, baggage transportation.</p>
+                        </div>
+                        <div style="display: flex;">
+                          <small class="destination_summary">6 nights,</small>
+                          <small class="destination_summary"> Departure on 2021, June 21</small>
+                        </div>
+                       <div class="mt-3" style="display:flex">
+                        <div><h6 class="discount_price">$620</h6></div>
+                         <div class="mt-2 ml-5"><small class="actual_price">$960</small></div>
+                         <div class="payment_plan">
+                          <small class="payment_plan_text">First payment only $240</small>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 booking_filter_card">
+                      <div>
+                        <div class="filter_box">
+                          <small class="filter_text">Most Popular</small>
+                        </div>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <img src="/img/booking 3.png" class="card-img-top" alt="...">
+                      <div class="card-body booking_filter_card">
+                        <div style="display: flex;">
+                          <i class="fas fa-star"></i>
+                          <h6 class="review_rating">5.0<span class="review_value">(240 reviews)</span></h6>
+                        </div>
+                        <div>
+                          <h2 class="booking_location">Susak, Croatia</h2>
+                          <p class="booking_location_brief">A beautiful place that I will be remembering for years to come. Deal includes dinner, flights, baggage transportation.</p>
+                        </div>
+                        <div style="display: flex;">
+                          <small class="destination_summary">7 nights,</small>
+                          <small class="destination_summary"> Departure on 2021, June 23</small>
+                        </div>
+                       <div class="mt-3" style="display:flex">
+                        <div><h6 class="discount_price">$480</h6></div>
+                         <div class="mt-2 ml-5"><small class="actual_price">$960</small></div>
+                         <div class="payment_plan">
+                          <small class="payment_plan_text">First payment only $200</small>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 booking_filter_card">
+                      <div>
+                        <div class="filter_box flight">
+                          <small class="filter_text">Direct Flight</small>
+                        </div>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <img src="/img/booking 4.png" class="card-img-top" alt="...">
+                      <div class="card-body booking_filter_card">
+                        <div style="display: flex;">
+                          <i class="fas fa-star"></i>
+                          <h6 class="review_rating">4.9<span class="review_value">(280 reviews)</span></h6>
+                        </div>
+                        <div>
+                          <h2 class="booking_location">Athena, Greece </h2>
+                          <p class="booking_location_brief">A beautiful place that I will be remembering for years to come. Deal includes dinner, flights, baggage transportation.</p>
+                        </div>
+                        <div style="display: flex;">
+                          <small class="destination_summary">8 nights,</small>
+                          <small class="destination_summary"> Departure on 2021, June 28</small>
+                        </div>
+                       <div class="mt-3" style="display:flex">
+                        <div><h6 class="discount_price">$780</h6></div>
+                         <div class="mt-2 ml-5"><small class="actual_price">$960</small></div>
+                         <div class="payment_plan">
+                          <small class="payment_plan_text">First payment only $150</small>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 booking_filter_card">
+                      <div>
+                        <div class="filter_box">
+                          <small class="filter_text">Most Popular</small>
+                        </div>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <img src="/img/booking 5.png" class="card-img-top" alt="...">
+                      <div class="card-body booking_filter_card">
+                        <div style="display: flex;">
+                          <i class="fas fa-star"></i>
+                          <h6 class="review_rating">4.7<span class="review_value">(340 reviews)</span></h6>
+                        </div>
+                        <div>
+                          <h2 class="booking_location">Porto Pomos, Cyprus</h2>
+                          <p class="booking_location_brief">A beautiful place that I will be remembering for years to come. Deal includes dinner, flights, baggage transportation.</p>
+                        </div>
+                        <div style="display: flex;">
+                          <small class="destination_summary">6 nights,</small>
+                          <small class="destination_summary"> Departure on 2021, June 21</small>
+                        </div>
+                       <div class="mt-3" style="display:flex">
+                        <div><h6 class="discount_price">$620</h6></div>
+                         <div class="mt-2 ml-5"><small class="actual_price">$960</small></div>
+                         <div class="payment_plan">
+                          <small class="payment_plan_text">First payment only $240</small>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row flight_row_three">
+                <h1 class="flight_row_three_title">Special Occasions</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100 booking_filter_card">
+                        <img src="/img/offers 1.png" class="card-img-top" alt="...">
+                        <div style="display : flex; width: 100%;" class="flex-container">
+                          <div class="one offer_info_ticket" style="flex-basis: 50px; padding-top: 18%;" >
+                            <img src="/img/logo.png" alt="" style="width: 80%; position: absolute;">
+                          </div>
+                          <div class="two offer_info_ticket" style="flex-basis: 250px;">
+                            <div style="display:flex">
+                              <div class="offer_info_sub" style="border-bottom: 0px;">
+                              <small class="offer_info_sub_text">Depature</small>
+                                <h6 class="offer_info_sub_subtext">4:50pm</h6>
+                              </div>
+                              <div class="offer_info_sub" style="border-bottom: 0px;">
+                                <small class="offer_info_sub_text">Arrive</small>
+                                  <h6 class="offer_info_sub_subtext"> 3:00am</h6>
+                                </div>
+                            </div>
+                            <div style="display:flex">
+                              <div class="offer_info_sub" style="border-bottom: 0px;">
+                              <small class="offer_info_sub_text">Estimation</small>
+                                <h6 class="offer_info_sub_subtext">July 5</h6>
+                              </div>
+                              <div class="offer_info_sub" style="border-bottom: 0px;">
+                                <span class="offer_info_sub_subtext"> $480.00</span>
+                                <small class="offer_info_sub_text">/person</small>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="card-body">
+                          <div>
+                            <h2 class="booking_location">Lambok, Indonesia</h2>
+                          </div>
+                          <div style="display: flex;" class="mt-3">
+                            <small class="offer_summary">6 nights,</small>
+                            <small class="offer_summary"> Departure on 2021, June 21</small>
+                          </div>
+                          <div style="display: flex;" class="mt-3">
+                            <div><h6 class="discount_price">$620</h6></div>
+                            <div class="mt-2 ml-5"><small class="">/person</small></div>
+                            <i class="fas fa-star offer_icon"></i>
+                            <h6 class="review_rating offer">4.7</h6>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 booking_filter_card">
+                      <!-- <div > -->
+                        <img src="/img/offers 2.png" class="card-img-top" alt="...">
+                      <div class="offer_info">
+                        <div style="display: flex">
+                          <i class="fas fa-car fa-2x"></i>
+                          <h4 class="offer_info_text">Pick Up</h4>
+                        </div>
+                        <div style="display:flex">
+                          <div class="offer_info_sub">
+                          <small class="offer_info_sub_text">To</small>
+                            <h6 class="offer_info_sub_subtext">Venice Hotel</h6>
+                          </div>
+                          <div class="offer_info_sub" style="border-left: 1px solid #fff; padding-left: 10px;">
+                            <small class="offer_info_sub_text">Departure</small>
+                              <h6 class="offer_info_sub_subtext"> Sun, June 26</h6>
+                            </div>
+                        </div>
+                        <div style="display:flex">
+                          <div class="offer_info_sub" style="border-bottom: 0px;">
+                          <small class="offer_info_sub_text">Departure</small>
+                            <h6 class="offer_info_sub_subtext">July 5</h6>
+                          </div>
+                          <div class="offer_info_sub" style="border-left: 1px solid #fff; padding-left: 10px; border-bottom: 0px;">
+                            <small class="offer_info_sub_text">Return</small>
+                              <h6 class="offer_info_sub_subtext"> One Way</h6>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div>
+                          <h2 class="booking_location">Venice, Italy</h2>
+                        </div>
+                        <div style="display: flex;" class="mt-3">
+                          <small class="offer_summary">6 nights,</small>
+                          <small class="offer_summary"> Departure on 2021, June 21</small>
+                        </div>
+                        <div style="display: flex;" class="mt-3">
+                          <div><h6 class="discount_price">$620</h6></div>
+                          <div class="mt-2 ml-5"><small class="">/person</small></div>
+                          <i class="fas fa-star offer_icon"></i>
+                          <h6 class="review_rating offer">4.7</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 booking_filter_card">
+                      <img src="/img/offers 3.png" class="card-img-top" alt="...">
+                      <div class="offer_info flight_offer_info" style="padding: 30px">
+                        <div style="display: flex">
+                          <i class="fas fa-plane-departure"></i>
+                          <h4 class="flight_offer_info_text"><b>Flight</b> from $124.32</h4>
+                          <div style="margin-left: auto;">
+                            <div style="display: flex;">
+                              <i class="fas fa-check-square"></i>
+                              <h6 class="review_rating">Booked!</h6></div>
+                            </div>  
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div>
+                          <h2 class="booking_location">Alba Iulia, Romania</h2>
+                        </div>
+                        <div style="display: flex;" class="mt-3">
+                          <small class="offer_summary">6 nights,</small>
+                          <small class="offer_summary"> Departure on 2021, June 21</small>
+                        </div>
+                        <div style="display: flex;" class="mt-3">
+                          <div><h6 class="discount_price">$620</h6></div>
+                          <div class="mt-2 ml-5"><small class="">/person</small></div>
+                          <i class="fas fa-star offer_icon"></i>
+                          <h6 class="review_rating offer">4.7</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row flight_row_four">
+                <h1 class="flight_row_three_title">All Services at a glance</h1>
+                <h6 class="flight_row_three_subtitle">The bodhi tree, according to the Buddhists, is the tree beneath which one finds enlightenment. </h6>
+                <div class="row mt-5">
+                  <div class="col">
+                    <div class="flight_row_three_col">
+                      <h2 class="flight_row_three_col_title">Why book your flight on eazzytrips.com?</h2>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="flight_row_three_col_two">
+                      <div style="display: flex;">
+                       <div class="flight_row_three_div"> <i class="fas fa-credit-card fa-2x flight_row_three_icon"></i></div>
+                       <div>
+                         <h6 class="flight_row_three_col_subtitle">No hidden fees</h6>
+                          <p class="flight_row_three_col_content">We ignite the opportunity by setting the world in motion. </p>
+                       </div> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="flight_row_three_col_two">
+                      <div style="display: flex;">
+                       <div class="flight_row_three_div"> <i class="far fa-suitcase fa-2x flight_row_three_icon"></i></div>
+                       <div>
+                         <h6 class="flight_row_three_col_subtitle">Luggage help</h6>
+                          <p class="flight_row_three_col_content">We ignite the opportunity by setting the world in motion. </p>
+                       </div> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col">
+                    <div class="flight_row_three_col">
+                      <h2 class="flight_row_three_col_title">We make your flight more comfortable.</h2>
+                    </div> 
+                  </div>
+                  <div class="col">
+                    <div class="flight_row_three_col_two">
+                      <div style="display: flex;">
+                       <div class="flight_row_three_div"> <i class="far fa-chair-office fa-2x flight_row_three_icon"></i></div>
+                       <div>
+                         <h6 class="flight_row_three_col_subtitle">Seat reservation</h6>
+                          <p class="flight_row_three_col_content">We ignite the opportunity by setting the world in motion. </p>
+                       </div> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="flight_row_three_col_two">
+                      <div style="display: flex;">
+                       <div class="flight_row_three_div"> <i class="far fa-stars fa-2x flight_row_three_icon"></i></div>
+                       <div>
+                         <h6 class="flight_row_three_col_subtitle">Class upgrade</h6>
+                          <p class="flight_row_three_col_content">We ignite the opportunity by setting the world in motion. </p>
+                       </div> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                <div class="col">
+                  <div class="flight_row_three_col">
+                    <h2 class="flight_row_three_col_title">Amazing benefits at your arrival.</h2>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="flight_row_three_col_two">
+                    <div style="display: flex;">
+                     <div class="flight_row_three_div"> <i class="fas fa-shield-check fa-2x flight_row_three_icon"></i></div>
+                     <div>
+                       <h6 class="flight_row_three_col_subtitle">Travel cover</h6>
+                        <p class="flight_row_three_col_content">We ignite the opportunity by setting the world in motion. </p>
+                     </div> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="flight_row_three_col_two">
+                    <div style="display: flex;">
+                     <div class="flight_row_three_div"> <i class="far fa-car fa-2x flight_row_three_icon"></i></div>
+                     <div>
+                       <h6 class="flight_row_three_col_subtitle">Rental cars</h6>
+                        <p class="flight_row_three_col_content">We ignite the opportunity by setting the world in motion. </p>
+                     </div> 
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col"></div>
+                  <div class="col">
+                    <div class="flight_row_three_col_two">
+                      <div style="display: flex;">
+                       <div class="flight_row_three_div"> <i class="fas fa-hotel fa-2x flight_row_three_icon"></i></div>
+                       <div>
+                         <h6 class="flight_row_three_col_subtitle">Hotel</h6>
+                          <p class="flight_row_three_col_content">We ignite the opportunity by setting the world in motion. </p>
+                       </div> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="flight_row_three_col_two">
+                      <div style="display: flex;">
+                       <div class="flight_row_three_div"> <i class="far fa-flag fa-2x flight_row_three_icon"></i></div>
+                       <div>
+                         <h6 class="flight_row_three_col_subtitle">Tours & activities</h6>
+                          <p class="flight_row_three_col_content">We ignite the opportunity by setting the world in motion. </p>
+                       </div> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="row payment_info">
+                <div class="row">
+                  <div class="col">
+                    <h4 class="payment_info_text">Payment Options</h4>
+                    <p class="payment_info_subtext">So what we learn about the properties of electrons (which we shall use for our examples) will apply also to all “particles,” including photons of light.</p>
+                    <a href="" type="button" class="btn btn-primary payment_btn mt-4">Learn More <i class="fa fa-arrow-right"></i></a>
+                  </div>
+                  <div class="col ml-5">
+                    <div class="flex-container mt-5">
+                      <div style="flex-basis: 30%" class="mr-5">
+                        <img src="/img/visa.png" alt="">
+                      </div>
+                      <div style="flex-basis: 30%" class="mr-5">
+                      <img src="/img/mastercard.png" alt="">
+                      </div>
+                      <div style="flex-basis: 30%" >
+                        <img src="/img/american.png" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-container mt-5">
+                      <div style="flex-basis: 30%; margin-right: 20px;" class="mr-5" >
+                      <img src="/img/diner.png" alt="">
+                      </div>
+                      <div style="flex-basis: 30%" class="mr-5">
+                      <img src="/img/dot.png" alt="">
+                      </div>
+                      <div style="flex-basis: 30%" >
+                        <img src="/img/jcb.png" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-container mt-5">
+                     
+                      
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="row flight_row_four">
+                <h1 class="flight_row_three_title">Stay Connected</h1>
+                <h6 class="flight_row_three_subtitle">The bodhi tree, according to the Buddhists, is the tree beneath which one finds enlightenment. </h6>
+              <div class="row mt-5">
+                <div class="col-4">
+                  <div class="card h-100 flight_row_four_card">
+                    <img src="/img/location 1.png" class="card-img-top" alt="...">
+                    <div class="flight_row_four_div"> <i class="fab fa-instagram  flight_row_four_icon"></i></div>
+                   <div class="location_text">
+                    <h6 class="flight_row_four_info_text">Ko Hong, Thailand</h6>
+                    <h6 class="flight_row_four_info_subtext">12 must see places</h6>
+                  </div>
+                    <div class="flight_row_four_info_one">
+                      <div class="flex-container" style="display: flex;">
+                        <div style="display: flex; flex-basis: 90px;">
+                          <i class="fas fa-star flight_row_four_info_one_icon"></i>
+                          <h4 class="offer_info_text">5.0</h4>
+                        </div>
+                        <div style="display: flex; flex-basis: 100px;">
+                          <i class="fas fa-cloud flight_row_four_info_one_icon"></i>
+                          <h4 class="offer_info_text">17°C</h4>
+                        </div>
+                        <div style="display: flex;;">
+                          <i class="fas fa-plane-departure flight_row_four_info_one_icon"></i>
+                          <h4 class="offer_info_text">12h</h4>
+                        </div>
+                      </div>
+                      </div>
+                </div>
+                </div>
+                <div class="col-4">
+                  <div class="row mb-3">
+                    <div class="card h-100 flight_row_four_card">
+                    <img src="/img/location 2.png" class="card-img-top" alt="...">
+                    <div class="flight_row_four_div"> <i class="fab fa-instagram  flight_row_four_icon"></i></div>
+                   <div style="display: flex;">
+                    <div class="flight_row_four_info_two">
+                      <div class="flex-container" style="display: flex;">
+                        <div style="display: flex; flex-basis: 90px;">
+                          <i class="fas fa-star flight_row_four_info_one_icon"></i>
+                          <h4 class="offer_info_text">5.0</h4>
+                        </div>
+                        <div style="display: flex; flex-basis: 100px;">
+                          <i class="fas fa-cloud flight_row_four_info_one_icon"></i>
+                          <h4 class="offer_info_text">17°C</h4>
+                        </div>
+                      </div>
+                      </div> 
+                  <div class="location_text_two">
+                    <h6 class="flight_row_four_info_text text_two">Ko Hong, Thailand</h6>
+                    <h6 class="flight_row_four_info_subtext_ subtext_two">12 must see places</h6>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="card h-100 flight_row_four_card">
+                      <img src="/img/location 3.png" class="card-img-top" alt="...">
+                      <div class="flight_row_four_div"> <i class="fab fa-instagram  flight_row_four_icon"></i></div>
+                     <div style="display: flex;">
+                      <div class="flight_row_four_info_three">
+                        <div>
+                          <i class="fas fa-cloud-sun"></i>
+                          <h4 class="text_three">17°C <small>Sunny</small></h4>
+                        </div>
+                        <div class="flight_row_four_div_subicon"><i class="fas fa-wifi"></i></div>
+                        <div class="flight_row_four_div_subicon"><i class="fas fa-mug-hot"></i></div>
+                        <div class="flight_row_four_div_subicon"><i class="fas fa-tv"></i></div>
+                        
+                        </div> 
+                    <div class="location_text_two">
+                      <h6 class="flight_row_four_info_text text_two">Ko Hong, Thailand</h6>
+                      <h6 class="flight_row_four_info_subtext_ subtext_two">12 must see places</h6>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <img src="/img/location 4.png" alt="" class="flight_row_four_img">
+                </div>
+              </div>
+              </div> -->
+              </div>
+              <div class="row footer_row">
+                <div class="col-4">
+                  <h4 class="footer_title">Explore the world with EazzyTrips!</h4>
+                  <p class="footer_subtitle mt-4">We offer tailored services for all your traveling needs. Our host are wonderful, ready to accommodate your stay as you enjoy your vacation without worries.</p>
+                  <small class="copyright_text">© 2022 EazzyTrips.</small>
+                </div>
+                <div class="col-8 footer_col">
+                  <div class="row mb-5">
+                    <div class="col"><a href="" class="footer_menu">About Us</a></div>
+                    <div class="col"><a href="" class="footer_menu">Blog</a></div>
+                    <div class="col"><a href="/help_center.html" class="footer_menu">Help Center</a></div>
+                    <div class="col"><a href="/privacy_policy.html" class="footer_menu">Privacy Policy</a></div>
+                    <div class="col"><a href="" class="footer_menu">Contact Us</a></div>
+                  </div>
+                  <div class="row">
+                    <div class="col"></div>
+                    <div class="col footer_form">
+                    <input type="text" onfocus="this.value=''" value="Enter your email address" class="footer_input" >
+                    <button class="btn btn-primary">Send <i class="fa fa-paper-plane"></i></button>
+                  </div>
+                  </div>
+                  <div class="footer_sm mt-5" style="display: flex;">
+                    <a class="sm_div m-1" href="">
+                      <i class="fa fa-instagram footer_icon"></i>
+                    </a>
+                    <a class="sm_div m-1" href="">
+                      <i class="fa fa-twitter footer_icon"></i>
+                    </a>
+                    <a class="sm_div m-1" href="">
+                      <i class="fa fa-facebook footer_icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/87c29cab84.js" crossorigin="anonymous"></script>
+     <script src="filter.js"></script>
+    </body>
+</html>

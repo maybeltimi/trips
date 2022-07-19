@@ -1,0 +1,1140 @@
+.body{
+ background-color: #e5e5e5;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 !important;
+}
+
+/*navbar*/
+.trips_nav{
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+/*sign-in */
+.sign_row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.sign_in_col_one{
+    padding-left: 5rem !important;
+    padding-top: 2rem;
+}
+.sign_in_form{
+    margin-top: 3rem;
+    margin-left: 10rem;
+    height: 37rem;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 1rem;
+    position: absolute;
+    padding: 1rem;
+}
+.log_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.sign_btn_group{
+    width: 100%;
+}
+.selector_btn{
+    background-color: #fff !important;
+    border-radius: 0 !important;
+    border: 0 0 1px 0 black !important;
+    color: black !important;
+}
+.tab {
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    /* background-color: #f1f1f1; */
+  }
+  .tab button {
+    background-color: #fff;
+    width: 50%;
+    float: left;
+    border-bottom: 1px solid black;
+    border: 0 ;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+.tab button:hover {
+    /* background-color: #ddd; */
+    border-bottom: 2px solid black;
+}
+.tab button.active {
+    /* background-color: #ccc; */
+ border-bottom: 2px solid black;
+}
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+  }
+.form_col{
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    appearance: none;
+    border-radius: 0.5rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 1rem;
+}
+.form_input{
+    border: 0 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+.forgot_pw{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    /* float: right; */
+}
+.form_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.form_btn{
+    background-color: black !important;
+    width: 100% !important;
+    border: 1px solid black !important;
+}
+.social_form_btn{
+    border: 1px solid #E6E8F0 !important;
+    border-radius: 10px;
+    width: 100%;
+}
+.sign_in_col_two{
+    padding-left: 0 !important;
+}
+.sign_in_img{
+    width: 90%;
+    height: 75%;
+    margin-left: 6.35rem;
+}
+
+/*sign up*/
+.sign_up_form{
+    /* margin-top: 3rem; */
+    margin-left: 4rem;
+    height: 46.5rem;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 1rem;
+    position: absolute;
+    padding: 1rem;
+}
+.sign_up_img{
+    width: 93%;
+}
+.sign_up_form_col{
+    /* margin-right: 3px !important; */
+    width: 49% !important;
+}
+.sign_up_form_col_two{
+    margin-left: 3px !important;
+    width: 49% !important;
+}
+.form_footer{
+    background-color: #f5f5f5;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 60px;
+    display: flex;
+    padding: 6px 10px;
+}
+.form_footer_btn{
+    background-color: black !important;
+    width: 100% !important;
+    border: 1px solid black !important;
+    height: 40px !important;
+}
+.form_footer_text{
+    margin-right: 2rem;
+}
+
+
+
+
+
+
+
+/*privacy policy*/
+.pp_row_one{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-image: url('img/pp.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 30px;
+}
+.pp_nav_item{
+    width: auto;
+    padding: 0 25px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057 !important;
+    background-color: transparent !important;
+    border: 0 !important;
+}
+.pp_nav_link{
+    color: #495057 !important;
+}
+.pp_nav_tabs{
+    border-bottom: 1px solid #C1C4D6 !important;
+}
+.pp_row_one_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #304659;
+}
+.pp_row_one_subtitle{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #696F8C;
+}
+.pp_row_one_date{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #696F8C;
+}
+.pp_row_two{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 100px;
+}
+.pp_row_two_menu{
+    border-left: 2px solid #E6E8F0;
+}
+.pp_row_two_menu{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.pp_row_two_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.pp_row_two_subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #696F8C;
+}
+.vertical-menu a {
+    /* background-color: #eee; */
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+  
+.vertical-menu a:hover {
+    border-left: 5px solid #000;
+}
+  
+.vertical-menu a.active {
+    border-left: 5px solid #000;
+}
+
+
+
+
+/*flight booking*/
+.flight_row_one{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-image: url('img/Image.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* .bg_img{
+    width: 100%;
+    position: relative;
+} */
+.booking_nav{
+    /* position: absolute; */
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+.booking_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+.booking_card{
+    margin-left: 7rem;
+    /* margin-right: 7rem; */
+    width: 83% !important;
+    border-radius: 23px !important;
+    height: 225px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.custom-select {
+    position: relative;
+    font-family: 'lato', sans-serif;
+}
+.booking_select{
+    border-color: #fff !important;
+}
+.itenary{
+    border: 1px solid #E6E8F0;
+    border-radius: 8px;
+    height: 100px;
+    width: 50%;
+    padding: 0.375rem 0.75rem;
+    /* color: #E6E8F0; */
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #E6E8F0;
+    position: absolute;
+    left: 16.5rem;
+    margin-top: 1.5rem;
+}
+.arrival{
+    padding-left: 1.5rem;
+}
+.departure{
+    /* margin-right: 1px; */
+}
+.fa-exchange-alt{
+    color: #E6E8F0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.search_form{
+    height: 74px !important;
+    width: 100%;
+    text-align: left !important;
+    padding: 0 !important;
+    color: #304659 !important;
+}
+.state{
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.date_search{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 0px;   
+    padding: 0.375rem 1.75rem;
+
+}
+.arrival_date_search{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 0px;
+}
+.fa-calendar-alt{
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+.date_btn{
+    color: #304659 !important;
+    padding: 0.00rem .25rem !important;
+}
+.explore_btn{
+    margin-left: 65%;
+}
+.search_btn{
+    float: right;
+    margin-top: 1rem;
+}
+.flight_row_two{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 100px;
+}
+.flight_row_two_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.filter_box{
+    width: auto;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #016FD0;
+    color: #fff;
+    position: absolute;
+    margin: 1rem;
+    padding: 0 10px;
+}
+.save{
+    background-color: #34A59F;
+    margin-left: 7rem;
+}
+.flight{
+    background-color: #000;
+}
+.filter_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.booking_filter_card{
+    background-color: #e5e5e5 !important;
+    border: #e5e5e5 !important;
+    border-bottom: 1px solid #C1C4D6 !important;
+}
+.fa-heart{
+    position: absolute;
+    margin-left: auto;
+    color: #fff;
+    margin: 1rem 20rem;
+}
+.fa-star{
+    color: #016FD0;
+    margin-right: 5px;
+}
+.review_rating{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #304659;
+}
+.review_value{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #304659;
+    margin-left: 2px;
+}
+.booking_location{
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.booking_location_brief{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.destination_summary{
+    color: #696F8C;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 2px;
+}
+.discount_price{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.actual_price{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #696F8C;
+    text-decoration-line: line-through;
+    margin-left: 1rem;
+}
+.payment_plan{
+    width: auto;
+    height: 26px;
+    border-radius: 4px;
+    background-color: rgba(1, 111, 208, 0.3);
+    padding: 0 10px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.payment_plan_text{
+    color: #016FD0;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.flight_row_three{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 100px;
+}
+.flight_row_three_title{
+    font-family: 'Lato', s;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #304659;
+}
+.offer_summary{
+    color: #696F8C;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 2px;
+}
+.offer_icon{
+    margin-left: auto;
+    margin-top: 10px;
+}
+.offer{
+    margin-top: 10px;
+}
+.offer_info_ticket{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(113.691px);
+    width: 84%;
+    height: 140px;
+    top: 52%;
+    margin-left: 30px;
+    margin-right: 30px !important;
+    padding: 15px;
+}
+.offer_info{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(113.691px);
+    width: 84%;
+    height: 180px;
+    top: 46%;
+    margin-left: 30px;
+    margin-right: 30px !important;
+    border-radius: 7px;
+    padding: 15px;
+}
+.flight_offer_info{
+    top: 62%;
+    height: 75px;
+}
+.offer_info_sub{
+    border-bottom: 1px solid #fff;
+    width: 50%;
+}
+.fa-car{
+    color:#304659;
+    margin-right: 10px;
+}
+.fa-plane-departure{
+    color:#304659;
+    margin-right: 10px;
+}
+.offer_info_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#304659;
+    margin-top: 6px;
+}
+.offer_info_sub_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #696F8C;
+}
+.offer_info_sub_subtext{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.flight_offer_info_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.one{
+    border-right: 1px dashed #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 25%
+}
+.two{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 60%;
+    left: 25%;
+}
+.flight_row_four{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 100px;
+}
+.flight_row_three_col{
+    margin-bottom: 6rem;
+}
+.flight_row_three_col_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #304659;
+}
+.flight_row_three_subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #696F8C;
+}
+.flight_row_three_icon{
+    margin-right: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #016FD0;
+    color: #fff;
+    padding: 17px;
+}
+.flight_row_three_col_subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.flight_row_three_col_content{
+    font-family: 'Lato', san-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #696F8C;
+}
+.flight_row_three_col_two{
+    margin-bottom: 6rem;
+}
+.payment_info{
+    background-color: #304659;
+    width: 87%;
+    border-radius: 10px;
+    height: auto;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    padding: 50px;
+}
+.payment_info_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+.payment_info_subtext{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    border-left: 2px solid #016FD0;
+    padding-left: 30px;
+}
+.location_img{
+    width: 100%;
+    position: relative;
+}
+.flight_row_four_div{
+    position: absolute;
+}
+.flight_row_four_img{
+    width: 100%;
+    position: relative;
+}
+.flight_row_four_icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #016FD0;
+    padding: 7px;
+    margin: 1rem 18rem;
+}
+.flight_row_four_info_one{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(113.691px);
+    width: 84%;
+    height: 70px;
+    top: 92%;
+    margin-left: 30px;
+    margin-right: 30px !important;
+    border-radius: 7px;
+    padding: 15px;
+}
+.flight_row_four_info_two{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(113.691px);
+    width: 40%;
+    height: 70px;
+    top: 60%;
+    margin-left: 20px;
+    margin-right: 30px !important;
+    border-radius: 7px;
+    padding: 15px;
+}
+.flight_row_four_info_three{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(113.691px);
+    width: 26%;
+    height: 90%;
+    top: 44%;
+    margin-left: 20px;
+    margin-right: 30px !important;
+    border-radius: 7px;
+    padding: 15px;
+}
+.flight_row_four_info_one_icon{
+    color: #016FD0;
+    margin-top: 10px;
+}
+.flight_row_four_info_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+}
+.text_two{
+    font-size: 15px;
+    color: #fff;
+}
+.flight_row_four_info_subtext{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+.subtext_two{
+    font-size: 12px;
+    color: #fff;
+}
+.location_text{
+    position: absolute;
+    top: 75%;
+    margin-left: 2rem;
+}
+.location_text_two{
+    position: absolute;
+    top: 67%;
+    margin-left: 13rem;
+}
+.flight_row_four_card{
+    background-color: #e5e5e5 !important;
+    border: 0 !important;
+}
+.flight_row_four_div_subicon{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.fa-cloud-sun{
+    color: #016FD0;
+    margin: auto;
+}
+.text_three{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #304659;
+}
+/*help center*/
+.help_row_one{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-image: url('img/BG.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* width: 100%; */
+}
+.help_sub_row_one{
+    padding: 0 200px 200px 200px !important;
+}
+.help_title{
+    text-align: center;
+}
+.help_form{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    background: #F6F6F6;
+    opacity: 0.9;
+    border-radius: 24px;
+    padding: 6px;
+}
+.help_input{
+    width: 95%;
+    border: 0 !important;
+    background-color: #F6F6F6 !important;
+    height: 45px;
+    margin-bottom: 10px;
+}
+.help_row_one_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+    /* padding-bottom: 2rem !important; */
+}
+.help_row_two{
+    background-color: #f9faf6;
+    padding: 100px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.help_row_two_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #696F8C;
+}
+.help_row_two_subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #696F8C;
+}
+.help_row_two_col{
+    padding: 0 40px !important;
+}
+.help_row_three{
+    padding: 100px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.help_row_three_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #304659;
+}
+.help_filter_selector{
+    width: 100%;
+    background-color: #E6E8F0;
+    color: #000;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0 20px;
+    font-size: 13px;
+}
+.help_filter_selector:hover{
+    color: #E6E8F0;
+    background-color: #000;
+}
+.accordion-item{
+    background-color: #e5e5e5 !important;
+    width: 80% !important;
+}
+.accordion-button{
+    background-color: #e5e5e5 !important;
+    padding: 2rem 1.25rem !important;
+    /* width: 80% !important; */
+}
+.help_row_four{
+    padding: 100px;
+    margin-left: 0 !important;
+    background-color: #F9FAFC;
+    margin-right: 0 !important;
+}
+.help_row_four_col{
+    margin: auto;
+    justify-content: center;
+    padding: 0 70px !important;
+}
+.help_row_four_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #696F8C;
+}
+.help_row_four_subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #696F8C;
+}
+.help_row_four_btn{
+    width: 300px !important;
+    padding: 10px;
+    color: #000 !important;
+    text-decoration: none !important;
+    margin: auto;
+    border-radius: 4px;
+    text-align: center;
+    /* margin-top: 10px; */
+    border: 2px solid #000;
+}
+.help_row_five{
+    padding: 100px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.help_row_five_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #304659;
+}
+.help_row_five_btn{
+    width: 300px !important;
+    padding: 15px;
+    background-color: #000;
+    color: #fff !important;
+    text-decoration: none !important;
+    margin: auto;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/*footer*/
+.footer_row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-color: #304659;
+    padding: 50px;
+}
+.footer_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+.footer_subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+.copyright_text{
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+.footer_col{
+    padding-left: 10rem !important;
+}
+.footer_menu{
+    text-decoration: none;
+    color: #fff !important;
+    text-align: center;
+}
+.footer_form{
+    width: 100%;
+    height: 50px;
+    background: #F6F6F6;
+    opacity: 0.9;
+    border-radius: 7px;
+    padding: 6px;
+}
+.footer_input{
+    width: 72%;
+    border: 0 !important;
+    color: #fff !important;
+    height: 35px;
+}
+.footer_sm{
+    margin-left: 80%;
+}
+.sm_div{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px 7px;
+    justify-content: center;
+
+}
+.footer_icon{
+    color: #016FD0;
+}
